@@ -1,0 +1,156 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2026-11-24T08:56:35.219791+00:00",
+  "repo": "mnot/ietf-decisions",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "accessibility",
+      "description": "Barrier affecting people with disabilities",
+      "color": "f143ab"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOV3OcN88AAAABhbYLZA",
+      "title": "ietf-decisions: recording objections probably needs to be mandatory",
+      "url": "https://github.com/mnot/ietf-decisions/issues/1",
+      "state": "OPEN",
+      "author": "dhuberma-icann",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Hi Mark and Pete,\n\nThanks for submitting this draft.\n\nThere is a critical gap between Section 2's normative requirement and Section 2.3's text on documenting persistent objections.\n\nSection 2 says decisions requiring rough consensus MUST fulfil three requirements, and the third is that \"Any objections have been handled.\" For a persistent objection, 2.3 says only \"The consensus caller records the disposition and its basis. Either determination can be appealed.\" That last sentence has no keyword.\n\nConsider a case where there is a persistent objection, the chairs call rough consensus, but never document the objections and the basis of their dispositions. As written, the chairs haven't violated any process rules, but anyone wanting to appeal has no legs to stand on, which arguably makes the current situation worse.\n\nI like the principle that the chairs must document persistent objections, and that they have to respond to the objectors on how they considered them during the rough consensus decisions making. Accordingly, I think the idea should carry through the text by making both the 2.3 sentence a MUST and the Section 2 SHOULD on record keeping a MUST.",
+      "createdAt": "2026-07-21T21:25:09Z",
+      "updatedAt": "2026-11-22T04:06:53Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Changed to MUST in fa9e6f40. See also Section 2.5 in current doc.",
+          "createdAt": "2026-08-15T04:46:39Z",
+          "updatedAt": "2026-08-15T04:46:39Z"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOV3OcN88AAAABhbYneg",
+      "title": "Minority support",
+      "url": "https://github.com/mnot/ietf-decisions/issues/2",
+      "state": "OPEN",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Section 2.3. \"Handling Objections\" doesn't seem to me to handle the hard case: an objection has a clear technical basis, has significant support in the group, but clearly only from a minority of participants. We don't vote and we don't have rough consensus.",
+      "createdAt": "2026-07-29T14:03:21Z",
+      "updatedAt": "2026-11-22T04:07:52Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Section 2.3 seems to describe a short extract from the resulting infinite loop (\"the proposal must be revised... or the decision deferred\").\n\n(both from Brian C)",
+          "createdAt": "2026-07-29T14:03:36Z",
+          "updatedAt": "2026-07-29T14:03:36Z"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOV3OcN88AAAABhbZAjw",
+      "title": "Definitions",
+      "url": "https://github.com/mnot/ietf-decisions/issues/3",
+      "state": "OPEN",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "\n - addressed\n - new information\n - rough consensus (?)\n - consensus caller\n - in the rough",
+      "createdAt": "2026-07-29T15:08:40Z",
+      "updatedAt": "2026-11-22T04:08:39Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOV3OcN88AAAABhbaAww",
+      "title": "Actual Controversy",
+      "url": "https://github.com/mnot/ietf-decisions/issues/4",
+      "state": "OPEN",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "(from pete):\n\nPerhaps in 2.1, maybe in a separate section (and I'm not sure on the wording of this): Decisions must be made on questions that could have an actual controversy. For example, asking, \"Is there consensus to publish this document?\" is not a reasonable question because the consensus caller is unable to tell why anyone might be in favor of publication (\"Because I really want to see my name on the document\", \"Because I think the document correctly describes the protocol that satisfies the charter item\") or against publication (\"Because it has a serious technical flaw\", \"Because I don't want to publish until we get to RFC 10100 or later because it's bad luck\").\n\nThat might also affect text in 2.2.\n",
+      "createdAt": "2026-08-03T06:04:07Z",
+      "updatedAt": "2026-11-22T04:10:40Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOV3OcN88AAAABhbaV1A",
+      "title": "Responding when setting aside",
+      "url": "https://github.com/mnot/ietf-decisions/issues/5",
+      "state": "OPEN",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "_From @priscylla:_\n\n[In] this paragraph in Section 2.3:\n\n> Not every objection requires the group's full engagement. One that is trivial, nonsensical, poorly described, off-topic, purely editorial, out of charter, or already answered can be set aside by the consensus caller without further discussion, on the ground that it does not bear on the merits.\n\nI've been participating in the IETF for a little over two years, and from that perspective I think an objection that is set aside should still get a short response that helps the objector understand why. Two examples:\n\n- Poorly described: before setting the objection aside, the consensus caller could ask the objector to clarify it. A poorly described objection is not necessarily a weak one. Newcomers and non-native English speakers may simply not yet know how to frame an argument the way the IETF expects.\n\n- Already answered: the response could include a pointer to the earlier discussion. Someone new to the working group could then see how the point was handled and how consensus was reached, instead of only being told it was settled.\n\nI think that is a small cost for the consensus caller.\n",
+      "createdAt": "2026-11-21T05:05:27Z",
+      "updatedAt": "2026-11-22T04:11:20Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": []
+}
