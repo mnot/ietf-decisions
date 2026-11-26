@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-24T08:56:35.219791+00:00",
+  "timestamp": "2026-11-26T07:22:57.297108+00:00",
   "repo": "mnot/ietf-decisions",
   "labels": [
     {
@@ -148,6 +148,22 @@
       "body": "_From @priscylla:_\n\n[In] this paragraph in Section 2.3:\n\n> Not every objection requires the group's full engagement. One that is trivial, nonsensical, poorly described, off-topic, purely editorial, out of charter, or already answered can be set aside by the consensus caller without further discussion, on the ground that it does not bear on the merits.\n\nI've been participating in the IETF for a little over two years, and from that perspective I think an objection that is set aside should still get a short response that helps the objector understand why. Two examples:\n\n- Poorly described: before setting the objection aside, the consensus caller could ask the objector to clarify it. A poorly described objection is not necessarily a weak one. Newcomers and non-native English speakers may simply not yet know how to frame an argument the way the IETF expects.\n\n- Already answered: the response could include a pointer to the earlier discussion. Someone new to the working group could then see how the point was handled and how consensus was reached, instead of only being told it was settled.\n\nI think that is a small cost for the consensus caller.\n",
       "createdAt": "2026-11-21T05:05:27Z",
       "updatedAt": "2026-11-22T04:11:20Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 6,
+      "id": "I_kwDOV3OcN88AAAABiQWDEA",
+      "title": "Section 1.1 appears to say that consensus was only chosen because voting is not possible in the IETF participation model",
+      "url": "https://github.com/mnot/ietf-decisions/issues/6",
+      "state": "OPEN",
+      "author": "JayDaley",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The 2nd and 3rd paras of Section 1.1 say:\n \n>   The openness of the IETF has significant influence on our decision-\n>    making process.  Because we have no concept of membership and anyone\n>    can participate, decision making by voting is inappropriate -- it\n>    would make our processes vulnerable to rule by majority and vote\n>    stuffing.\n> \n>    Instead, we use a consensus process, described in Section 2.  This\n>    assures that viewpoints are heard and considered.  This is not a\n>    representative process: the IETF's legitimacy rests upon its\n>    expertise and the success of its output, rather than representative\n>    input.\n\nStarting with voting and then \"instead\" makes it sound as if consensus was only chosen because voting is not possible in the IETF participation model.\n\nIt's also worth me noting that consensus is a general feature of SDOs and not restricted to the IETF.  In those SDOs where voting is used, it's either just to test consensus (this is formal voting not informal IETF polling) or as a fallback when consensus fails (often combined with a super-majority requirement).  Even then, SDOs generally still follow the principle that all objections must be addressed in some way.  ",
+      "createdAt": "2026-11-24T07:16:27Z",
+      "updatedAt": "2026-11-24T23:50:04Z",
       "closedAt": null,
       "comments": []
     }
